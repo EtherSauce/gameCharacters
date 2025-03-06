@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3IwAHp6dLUp3M1epTY4r1cLAsdg3WTwpfiM+CoMrmsFEYK0aX458XJ4RGK/CSHS7F1nzrGlsq1euAPWAlHeVPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\esitterly\\Downloads\\gameCharacters\\gameCharacters.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\esitterly\\.nuget\\packages\\nlog\\5.3.3\\nlog.5.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}
