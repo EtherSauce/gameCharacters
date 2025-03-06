@@ -10,7 +10,13 @@ logger.Info("Program started");
 
 // deserialize mario json from file into List<Mario>
 string marioFileName = "mario.json";
-List<Mario> marios = JsonSerializer.Deserialize<List<Mario>>(File.ReadAllText(marioFileName))!;
+List<Mario> marios = [];
+// check if file exists
+if (File.Exists(marioFileName))
+{
+  marios = JsonSerializer.Deserialize<List<Mario>>(File.ReadAllText(marioFileName))!;
+  logger.Info($"File deserialized {marioFileName}");
+}
 
 do
 {
@@ -49,6 +55,22 @@ do
   else if (choice == "3")
   {
     // Remove Mario Character
+    Console.WriteLine("Enter the Id of the character to remove:");
+    if (UInt32.TryParse(Console.ReadLine(), out UInt32 Id))
+    {
+      Mario? character = marios.FirstOrDefault(c => c.Id == Id);
+      if (character == null)
+      {
+        logger.Error($"Character Id {Id} not found");
+      } else {
+        marios.Remove(character);
+        // serialize list<marioCharacter> into json file
+        File.WriteAllText(marioFileName, JsonSerializer.Serialize(marios));
+        logger.Info($"Character Id {Id} removed");
+      }
+    } else {
+      logger.Error("Invalid Id");
+    }
   } else if (string.IsNullOrEmpty(choice)) {
     break;
   } else {
