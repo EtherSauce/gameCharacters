@@ -13,3 +13,32 @@
 2025-03-26 21:12:18.9261|INFO|gameCharacters.Program|Program started
 2025-03-26 21:12:18.9601|INFO|gameCharacters.Program|File deserialized mario.json for Mario
 2025-03-26 21:12:18.9601|INFO|gameCharacters.Program|File deserialized dk.json for Donkey Kong
+2025-03-26 21:15:24.3194|INFO|gameCharacters.Program|Program started
+2025-03-26 21:15:24.3533|INFO|gameCharacters.Program|File deserialized mario.json
+2025-03-26 21:15:24.3533|INFO|gameCharacters.Program|File deserialized dk.json
+2025-03-26 21:15:24.3533|INFO|gameCharacters.Program|File deserialized sf2.json
+2025-03-26 21:31:09.0099|INFO|gameCharacters.Program|User choice: "dotnet run"
+2025-03-26 21:31:09.0099|INFO|gameCharacters.Program|Invalid choice
+2025-03-26 21:31:19.3768|INFO|gameCharacters.Program|User choice: ""
+2025-03-26 21:31:19.3768|INFO|gameCharacters.Program|Program ended
+2025-03-26 21:31:27.6102|INFO|gameCharacters.Program|Program started
+2025-03-26 21:31:27.6401|INFO|gameCharacters.Program|File deserialized mario.json
+2025-03-26 21:31:27.6401|INFO|gameCharacters.Program|File deserialized dk.json
+2025-03-26 21:31:27.6401|INFO|gameCharacters.Program|File deserialized sf2.json
+2025-03-26 21:41:51.9063|INFO|gameCharacters.Program|User choice: "4"
+2025-03-26 21:41:51.9063|INFO|gameCharacters.Program|Invalid choice
+2025-03-26 21:41:56.3605|INFO|gameCharacters.Program|User choice: ""
+2025-03-26 21:41:56.3605|INFO|gameCharacters.Program|Program ended
+2025-03-26 21:42:00.5730|INFO|gameCharacters.Program|Program started
+2025-03-26 21:42:00.6137|INFO|gameCharacters.Program|File deserialized mario.json
+2025-03-26 21:42:00.6137|INFO|gameCharacters.Program|File deserialized dk.json
+2025-03-26 21:42:00.6137|INFO|gameCharacters.Program|File deserialized sf2.json
+2025-03-26 21:42:03.9765|INFO|gameCharacters.Program|User choice: "4"
+2025-03-26 21:42:03.9765|INFO|gameCharacters.Program|Invalid choice
+2025-03-26 21:51:47.3860|INFO|gameCharacters.Program|User choice: ""
+2025-03-26 21:51:47.3860|INFO|gameCharacters.Program|Program ended
+2025-03-26 21:51:52.7844|INFO|gameCharacters.Program|Program started
+2025-03-26 21:51:52.8174|INFO|gameCharacters.Program|File deserialized mario.json
+2025-03-26 21:51:52.8174|INFO|gameCharacters.Program|File deserialized dk.json
+2025-03-26 21:51:52.8174|INFO|gameCharacters.Program|File deserialized sf2.json
+2025-03-26 21:51:55.1049|INFO|gameCharacters.Program|User choice: "4"
