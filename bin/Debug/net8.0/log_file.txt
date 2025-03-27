@@ -1,0 +1,15 @@
+2025-03-26 20:33:03.4664|INFO|gameCharacters.Program|Program started
+2025-03-26 20:33:03.5019|INFO|gameCharacters.Program|File deserialized mario.json
+2025-03-26 20:39:08.4255|INFO|gameCharacters.Program|User choice: "1"
+2025-03-26 20:51:54.3445|INFO|gameCharacters.Program|User choice: "dotnet run"
+2025-03-26 20:51:54.3445|INFO|gameCharacters.Program|Invalid choice
+2025-03-26 20:52:08.0575|INFO|gameCharacters.Program|User choice: "dotnet run"
+2025-03-26 20:52:08.0575|INFO|gameCharacters.Program|Invalid choice
+2025-03-26 20:52:34.8716|INFO|gameCharacters.Program|User choice: ""
+2025-03-26 20:52:34.8716|INFO|gameCharacters.Program|Program ended
+2025-03-26 21:03:44.9509|INFO|gameCharacters.Program|Program started
+2025-03-26 21:03:44.9818|INFO|gameCharacters.Program|File deserialized mario.json
+2025-03-26 21:03:44.9818|INFO|gameCharacters.Program|File deserialized dk.json
+2025-03-26 21:12:18.9261|INFO|gameCharacters.Program|Program started
+2025-03-26 21:12:18.9601|INFO|gameCharacters.Program|File deserialized mario.json for Mario
+2025-03-26 21:12:18.9601|INFO|gameCharacters.Program|File deserialized dk.json for Donkey Kong

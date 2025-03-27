@@ -10,12 +10,27 @@ logger.Info("Program started");
 
 // deserialize mario json from file into List<Mario>
 string marioFileName = "mario.json";
+string dkFileName = "dk.json";
+string sf2FileName = "sf2.json";
 List<Mario> marios = [];
+List<Dk> dks = [];
+List<Sf2> sf2s = [];
 // check if file exists
 if (File.Exists(marioFileName))
 {
   marios = JsonSerializer.Deserialize<List<Mario>>(File.ReadAllText(marioFileName))!;
   logger.Info($"File deserialized {marioFileName}");
+}
+if (File.Exists(dkFileName))
+{
+  dks = JsonSerializer.Deserialize<List<Dk>>(File.ReadAllText(dkFileName))!;
+  logger.Info($"File deserialized {dkFileName}");
+}
+if (File.Exists(sf2FileName))
+{
+    var sf2Data = JsonSerializer.Deserialize<Dictionary<string, List<Sf2>>>(File.ReadAllText(sf2FileName))!;
+    sf2s = sf2Data["Characters"];
+    logger.Info($"File deserialized {sf2FileName}");
 }
 
 do
@@ -24,6 +39,12 @@ do
   Console.WriteLine("1) Display Mario Characters");
   Console.WriteLine("2) Add Mario Character");
   Console.WriteLine("3) Remove Mario Character");
+  Console.WriteLine("4. Display Donkey Kong Characters");
+  Console.WriteLine("5. Add Donkey Kong Character");
+  Console.WriteLine("6. Remove Donkey Kong Character");
+  Console.WriteLine("7. Display Street Fighter II Characters");
+  Console.WriteLine("8. Add Street Fighter II Character");
+  Console.WriteLine("9. Remove Street Fighter II Character");
   Console.WriteLine("Enter to quit");
 
   // input selection
