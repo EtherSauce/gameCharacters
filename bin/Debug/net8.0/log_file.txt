@@ -42,3 +42,39 @@
 2025-03-26 21:51:52.8174|INFO|gameCharacters.Program|File deserialized dk.json
 2025-03-26 21:51:52.8174|INFO|gameCharacters.Program|File deserialized sf2.json
 2025-03-26 21:51:55.1049|INFO|gameCharacters.Program|User choice: "4"
+2025-03-26 21:52:06.3289|INFO|gameCharacters.Program|User choice: "7"
+2025-03-26 21:58:54.1131|INFO|gameCharacters.Program|User choice: "5"
+2025-03-26 21:59:04.9637|INFO|gameCharacters.Program|Character added: bob
+2025-03-26 21:59:08.5696|INFO|gameCharacters.Program|User choice: "4"
+2025-03-26 21:59:51.6496|INFO|gameCharacters.Program|User choice: "7"
+2025-03-26 21:59:57.1532|INFO|gameCharacters.Program|User choice: "8"
+2025-03-26 22:00:30.5163|INFO|gameCharacters.Program|Character added: man
+2025-03-26 22:00:34.9287|INFO|gameCharacters.Program|User choice: "7"
+2025-03-26 22:00:41.6089|INFO|gameCharacters.Program|User choice: "9"
+2025-03-26 22:00:47.0176|INFO|gameCharacters.Program|Character Id 9 removed
+2025-03-26 22:00:49.7610|INFO|gameCharacters.Program|User choice: "7"
+2025-03-26 22:00:56.5457|INFO|gameCharacters.Program|User choice: ""
+2025-03-26 22:00:56.5457|INFO|gameCharacters.Program|Program ended
+2025-03-26 22:01:17.6003|INFO|gameCharacters.Program|Program started
+2025-03-26 22:01:17.6361|INFO|gameCharacters.Program|File deserialized mario.json
+2025-03-26 22:01:17.6470|INFO|gameCharacters.Program|File deserialized dk.json
+2025-03-26 22:01:17.6470|INFO|gameCharacters.Program|File deserialized sf2.json
+2025-03-26 22:01:19.9134|INFO|gameCharacters.Program|User choice: "4"
+2025-03-26 22:01:25.7050|INFO|gameCharacters.Program|User choice: ""
+2025-03-26 22:01:25.7050|INFO|gameCharacters.Program|Program ended
+2025-03-26 22:06:41.7951|INFO|gameCharacters.Program|Program started
+2025-03-26 22:06:41.8292|INFO|gameCharacters.Program|File deserialized mario.json
+2025-03-26 22:06:41.8292|INFO|gameCharacters.Program|File deserialized dk.json
+2025-03-26 22:06:41.8317|INFO|gameCharacters.Program|File deserialized sf2.json
+2025-03-26 22:06:51.5053|INFO|gameCharacters.Program|User choice: "6"
+2025-03-26 22:07:00.8203|INFO|gameCharacters.Program|Character added: bob
+2025-03-26 22:07:07.5842|INFO|gameCharacters.Program|User choice: "8"
+2025-03-26 22:07:15.3029|ERROR|gameCharacters.Program|Invalid Id
+2025-03-26 22:07:23.4190|INFO|gameCharacters.Program|User choice: "5"
+2025-03-26 22:07:31.6328|INFO|gameCharacters.Program|User choice: "8"
+2025-03-26 22:07:46.5143|INFO|gameCharacters.Program|Character Id 43 edited
+2025-03-26 22:07:50.4577|INFO|gameCharacters.Program|User choice: "5"
+2025-03-26 22:07:58.4408|INFO|gameCharacters.Program|User choice: "7"
+2025-03-26 22:08:00.7075|INFO|gameCharacters.Program|Character Id 43 removed
+2025-03-26 22:08:02.1934|INFO|gameCharacters.Program|User choice: ""
+2025-03-26 22:08:02.1934|INFO|gameCharacters.Program|Program ended
